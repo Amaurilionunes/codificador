@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style1.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="shortcut icon" href="assets/logo-branca.png" type="image/x-icon">
+    <script defer src="assets/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+    <title>Codificador de Texto</title>
+</head>
+<body>
+    <main>
+        <div id="encryptor">
+            <div>
+                <h1 class="title">Codificador de Texto</h1>
+            </div>
+            <img src="assets/logo.png" alt="Nenhuma mensagem encontrada">
+            <div class="buttons-container">
+                <p class="notice">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Apenas letras minúsculas sem acentuação e sem caracteres especiais
+                </p>
+            <div id="no-msg-found">
+                <h4>Nenhuma mensagem encontrada</h4>
+                <p>Digite um texto aqui para criptografar ou descriptografar</p>
+            </div>
+            
+            <div>
+                <button id="encrypt-btn" class="dark-btn">Criptografar</button>
+                <button id="decrypt-btn" class="light-btn">Descriptografar</button>
+            </div>
+            <div><br>
+                <button id = "close-btn"> Ok </button>
+            </div>
+            </div>
+            <div id="logo.png">
+                <i class="fa-solid fa-align-left"></i>
+            </div>
+            <div class="text-input-container">
+                <span id="text-input" role="textbox" contenteditable></span>
+        </div>
+        <div id = "modal" class ="oculto">
+            <div class ="modal-conteúdo">
+            <!-- <span id="close-btn">×</span> -->
+            <p id ="texto-modal"> </p >       
+        </div>
+        <span id="text-output" role="textbox" contenteditable="false"></span>   
+    </div>
+    <footer>   
+        <div>
+            <a href ="https://github.com/Amaurilionunes/Codificador" target ="_blank">
+                <i class ="fa-brands fa-github-square"></i>
+                 Github
+            <a href ="https://www.linkedin.com/in/Amaurilionunes/" target ="_blank ">
+                <i class ="fa-brands fa-linkedin"></i>
+                LinkedIn
+                <p> Desenvolvido por Amaurilionunes © 2022</p>
+                <p> Dev Amaurilionunes© 2022</p>
+            </a>   
+        </div>
+    </footer>
+    </main>
+</body>
+</html>
